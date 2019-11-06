@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # save the current directory
-start_dir = "$(pwd)"
+start_dir="$(pwd)"
 
 # clone the lammps repo from source
 git clone -b stable https://github.com/lammps/lammps.git
