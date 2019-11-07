@@ -7,7 +7,7 @@ Script names should follow the general convention `purpose_software_platform` wh
 ## Descriptions
 
 ### compile_lammps_hipergator.sh
-Compiles a serial and mpi enabled version of LAMMPS directly from the stable git branch. Execute it in the following way.
+Compiles a serial and mpi enabled version of LAMMPS directly from the stable git branch. This script also creates `LAMMPS_SERIAL_BIN` and `LAMMPS_MPI_BIN` environment variables which point to the locations of the serial and mpi executables respectively. Execute it in the following way.
 ```
 # I strongly recommend installing in ~/usr/local
 
