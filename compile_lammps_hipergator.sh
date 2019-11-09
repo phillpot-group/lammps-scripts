@@ -16,7 +16,6 @@ make package-update
 # this is the compile chain as of November 5, 2019
 module load intel/2016.0.109
 module load impi/5.1.1
-module load cmake/3.6.3
 
 # specify extra packages
 make yes-manybody
